@@ -4,7 +4,7 @@
 
 A PayPal like web app built using the MERN stack.
 
-![screenshot](./public/payu-dashboard.png)
+![screenshot](./public/payu-dashboard.jpg)
 
 **Try it here 👉** 
 
