@@ -8,12 +8,12 @@ const rootRouter = require("./routes/index");
 
 const app = express();
 app.use(cookieParser());
-app.use(cors())
-// app.use(cors({
-//     origin: process.env.FRONTEND_URL,
-//     credentials: true,
-//     methods: ['GET', 'POST', 'PUT', 'DELETE'],
-// }));
+// app.use(cors())
+app.use(cors({
+    origin: process.env.FRONTEND_URL,
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+}));
 app.use(express.json());
 
 app.use("/api/v1", rootRouter);
