@@ -1,4 +1,3 @@
-import { PiLinkedinLogo, PiGithubLogo } from "react-icons/pi";
 
 const Footer = () => {
   return (
