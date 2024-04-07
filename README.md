@@ -6,7 +6,7 @@ A PayPal like web app built using the MERN stack.
 
 ![screenshot](./public/payu-dashboard.jpg)
 
-**Try it here 👉** 
+**Try it here 👉 https://pay-u.vercel.app/** 
 
 </div>
 
